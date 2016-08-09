@@ -9,7 +9,7 @@ def select_hand():
     import random
     pass
 
-    chand = random.randint(1,3)
+    chand = random.choice(1,3)
 
 def judgement(player, computer):
     """

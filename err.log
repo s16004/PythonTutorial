@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "command_line_arguments.py", line 7, in <module>
+    sys.stderr.writte('WARNING: log file not found starting a new one\n')
+AttributeError: '_io.TextIOWrapper' object has no attribute 'writte'
+WARNING: log file not found starting a new one
